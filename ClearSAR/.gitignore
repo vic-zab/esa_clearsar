@@ -1,0 +1,45 @@
+# Model weights
+*.pt
+*.pth
+
+# Training artifacts
+runs/
+runs_phase9/
+
+# Dataset images & labels
+data/
+
+# External repos & pretrained weights
+extern/
+pretrained/
+datasets/
+
+# Submission files
+submission_*.json
+
+# Out-of-scope notebooks. Further experiments that we don't want to keep track of.
+phase_6.ipynb
+phase_7_rcnn.ipynb
+phase_8.ipynb
+phase_9.ipynb
+some_test.ipynb
+
+# Support script for further experiments
+_train_p2.py
+clearsar_dataset.py
+
+# Configs for out-of-scope phases
+configs_phase9/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Tooling internals
+.claude/
+CLAUDE.md
+
+# Train/val split files and custom .yaml/parquet
+*.txt
+*.parquet
+*.yaml

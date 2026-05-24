@@ -1,0 +1,10 @@
+# Tooling internals
+.claude/
+.vscode/
+__pycache__/
+*.pyc
+
+# Personal working notes
+WBF_log.md
+WBF_guidelines.md
+Project_history.md
